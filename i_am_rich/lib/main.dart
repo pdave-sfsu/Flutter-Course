@@ -10,7 +10,9 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Image(image: AssetImage('images/diamond.png')),
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
         ),
       ),
     ),
